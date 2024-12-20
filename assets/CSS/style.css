@@ -463,8 +463,8 @@ section
 #Department img-fluid-right
 {
     width:50%;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
     margin-right: 170px;
 }
 
@@ -472,13 +472,6 @@ section
 {
     padding-left:10px;
     line-height: 30px;
-}
-
-#Department .dept-panel
-{
-    margin-left: 60px !important;
-    line-height: 30px;
-
 }
 
 #Department .dept-text h3
